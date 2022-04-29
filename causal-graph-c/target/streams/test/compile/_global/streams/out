@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m/home/caballero/GitHub/causal-graph-c/causal-graph-c-code/src/test/scala/processTest.scala:7:47: not enough arguments for method apply: (v1: String, v2: String, v3: String, v4: String, v5: String): String in trait Function5.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter v5.[0m
+[0m[[0m[31merror[0m] [0m[0m        assert( helpers.helpers.clarifyAddress("/home/caballero/GitHub/linux/drivers/atm/", [0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

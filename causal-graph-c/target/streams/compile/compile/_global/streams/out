@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0m/home/caballero/GitHub/data-about-linux-kernel/causal-graph-c/src/main/scala/helpers.scala:59:30: not found: value pattern5Action[0m
+[0m[[0m[31merror[0m] [0m[0m          case pattern4() => pattern5Action(root, dirInput, relDirInput, newPath)        [0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/caballero/GitHub/data-about-linux-kernel/causal-graph-c/src/main/scala/helpers.scala:60:44: not enough arguments for method apply: (v1: String, v2: String, v3: String, v4: String): String in trait Function4.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter v4.[0m
+[0m[[0m[31merror[0m] [0m[0m          case pattern3() => pattern4Action(dirInput, relDirInput, newPath)[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/caballero/GitHub/data-about-linux-kernel/causal-graph-c/src/main/scala/helpers.scala:61:74: too many arguments (found 4, expected 3) for method apply: (v1: String, v2: String, v3: String): String in trait Function3[0m
+[0m[[0m[31merror[0m] [0m[0m          case pattern2() => pattern3Action(root, dirInput, relDirInput, newPath)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
