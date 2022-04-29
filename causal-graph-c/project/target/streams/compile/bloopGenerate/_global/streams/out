@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0m[causal-graph-c-build] Classpath dependencies List()[0m
-[0m[[0m[0mdebug[0m] [0m[0m[causal-graph-c-build] Dependencies from configurations List()[0m
-[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'causal-graph-c-build' to '/home/caballero/GitHub/data-about-linux-kernel/causal-graph-c/project/.bloop/causal-graph-c-build.json'[0m
-[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/causal-graph-c-build.json[0m
+[debug] [causal-graph-c-build] Classpath dependencies List()
+[debug] [causal-graph-c-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'causal-graph-c-build' to '/home/caballero/GitHub/causal-graph-programming/causal-graph-c/project/.bloop/causal-graph-c-build.json'
+[success] Generated .bloop/causal-graph-c-build.json

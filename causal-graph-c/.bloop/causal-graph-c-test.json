@@ -2,20 +2,20 @@
     "version": "1.4.0",
     "project": {
         "name": "causal-graph-c-test",
-        "directory": "/home/caballero/GitHub/data-about-linux-kernel/causal-graph-c",
-        "workspaceDir": "/home/caballero/GitHub/data-about-linux-kernel/causal-graph-c",
+        "directory": "/home/caballero/GitHub/causal-graph-programming/causal-graph-c",
+        "workspaceDir": "/home/caballero/GitHub/causal-graph-programming/causal-graph-c",
         "sources": [
-            "/home/caballero/GitHub/data-about-linux-kernel/causal-graph-c/src/test/scala",
-            "/home/caballero/GitHub/data-about-linux-kernel/causal-graph-c/src/test/scala-2.13",
-            "/home/caballero/GitHub/data-about-linux-kernel/causal-graph-c/src/test/scala-2",
-            "/home/caballero/GitHub/data-about-linux-kernel/causal-graph-c/src/test/java",
-            "/home/caballero/GitHub/data-about-linux-kernel/causal-graph-c/target/scala-2.13/src_managed/test"
+            "/home/caballero/GitHub/causal-graph-programming/causal-graph-c/src/test/scala",
+            "/home/caballero/GitHub/causal-graph-programming/causal-graph-c/src/test/scala-2.13",
+            "/home/caballero/GitHub/causal-graph-programming/causal-graph-c/src/test/scala-2",
+            "/home/caballero/GitHub/causal-graph-programming/causal-graph-c/src/test/java",
+            "/home/caballero/GitHub/causal-graph-programming/causal-graph-c/target/scala-2.13/src_managed/test"
         ],
         "dependencies": [
             "causal-graph-c"
         ],
         "classpath": [
-            "/home/caballero/GitHub/data-about-linux-kernel/causal-graph-c/.bloop/causal-graph-c/scala-2.13/classes",
+            "/home/caballero/GitHub/causal-graph-programming/causal-graph-c/.bloop/causal-graph-c/scala-2.13/classes",
             "/home/caballero/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar",
             "/home/caballero/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.2.1/spark-core_2.13-3.2.1.jar",
             "/home/caballero/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.2.1/spark-sql_2.13-3.2.1.jar",
@@ -167,11 +167,11 @@
             "/home/caballero/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.50.Final/netty-codec-4.1.50.Final.jar",
             "/home/caballero/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.50.Final/netty-transport-native-unix-common-4.1.50.Final.jar"
         ],
-        "out": "/home/caballero/GitHub/data-about-linux-kernel/causal-graph-c/.bloop/causal-graph-c",
-        "classesDir": "/home/caballero/GitHub/data-about-linux-kernel/causal-graph-c/.bloop/causal-graph-c/scala-2.13/test-classes",
+        "out": "/home/caballero/GitHub/causal-graph-programming/causal-graph-c/.bloop/causal-graph-c",
+        "classesDir": "/home/caballero/GitHub/causal-graph-programming/causal-graph-c/.bloop/causal-graph-c/scala-2.13/test-classes",
         "resources": [
-            "/home/caballero/GitHub/data-about-linux-kernel/causal-graph-c/src/test/resources",
-            "/home/caballero/GitHub/data-about-linux-kernel/causal-graph-c/target/scala-2.13/resource_managed/test"
+            "/home/caballero/GitHub/causal-graph-programming/causal-graph-c/src/test/resources",
+            "/home/caballero/GitHub/causal-graph-programming/causal-graph-c/target/scala-2.13/resource_managed/test"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -250,7 +250,7 @@
             "config": {
                 "home": "/usr/lib/jvm/java-11-openjdk-amd64",
                 "options": [
-                    "-Duser.dir=/home/caballero/GitHub/data-about-linux-kernel/causal-graph-c"
+                    "-Duser.dir=/home/caballero/GitHub/causal-graph-programming/causal-graph-c"
                 ]
             },
             "mainClass": [

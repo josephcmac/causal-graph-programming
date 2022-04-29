@@ -26,22 +26,13 @@ package object helpers {
         pattern replaceAllIn(s, "")
     }
 
-    private val pattern5Action = (root: String, dirInput: String, relDirInput: String, newPath: String) => {
-        root + withoutRoot(cleanLessMore(newPath)) 
-    }
-
-    private val pattern4Action = (root: String, dirInput: String, relDirInput: String, newPath: String) => {
+    private val pattern3Action = (root: String, dirInput: String, relDirInput: String, newPath: String) => {
         val cleanName = cleanLessMore(newPath)
         root + "include/asm-generic/" + withoutRoot(cleanName)
     }
 
-    private val pattern3Action = (dirInput: String, relDirInput: String, newPath: String) => {
-        val cleanName = cleanLessMore(newPath)
-        dirInput + withoutRoot(cleanName)
-    }
-
-    private val pattern2Action = (root: String, dirInput: String, relDirInput: String, newPath: String) => {
-        root + "include/" + cleanLessMore(newPath)
+    private val pattern2Action = (dirInput: String, relDirInput: String, newPath: String) => {
+        dirInput + withoutRoot(cleanLessMore(newPath))
     }
 
     private val pattern1Action: (String, String) => String = (dirInput: String, newPath: String) => {
@@ -54,18 +45,14 @@ package object helpers {
         
 
     val clarifyAddress = (root: String, relRoot: String, dirInput: String, relDirInput: String, newPath: String) => {
-        val pattern5 = ("[<][.][.].*?[>]").r
-        val pattern4 = ("[<]asm[/].*?[>]").r
-        val pattern3 = ("[<]" + relRoot + ".*?[>]").r
-        val pattern2 = ("[<].*?[>]").r
+        val pattern3 = ("[<]asm[/].*?[>]").r
+        val pattern2 = ("[<]" + relRoot + ".*?[>]").r
         val pattern1 = "[\"].*?[\"]".r
         newPath match {
-          case pattern5() => pattern5Action(root, dirInput, relDirInput, newPath)
-          case pattern4() => pattern4Action(root, dirInput, relDirInput, newPath)        
-          case pattern3() => pattern3Action(dirInput, relDirInput, newPath)
-          case pattern2() => pattern2Action(root, dirInput, relDirInput, newPath)
+          case pattern3() => pattern3Action(root, dirInput, relDirInput, newPath)        
+          case pattern2() => pattern2Action(dirInput, relDirInput, newPath)
           case pattern1() => pattern1Action(dirInput, cleanQuotationMarks(newPath))
-          case _ => "PatternError"
+          case _ => ""
         }
     }
 }

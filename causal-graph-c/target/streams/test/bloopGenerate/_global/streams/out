@@ -1,4 +1,4 @@
 [debug] [causal-graph-c-test] Classpath dependencies List()
 [debug] [causal-graph-c-test] Dependencies from configurations List(causal-graph-c)
-[debug] Bloop wrote the configuration of project 'causal-graph-c-test' to '/home/caballero/GitHub/data-about-linux-kernel/causal-graph-c/.bloop/causal-graph-c-test.json'
+[debug] Bloop wrote the configuration of project 'causal-graph-c-test' to '/home/caballero/GitHub/causal-graph-programming/causal-graph-c/.bloop/causal-graph-c-test.json'
 [success] Generated .bloop/causal-graph-c-test.json
